@@ -1,17 +1,17 @@
 # Password Generator Starter Code
 
--in this challenge, i was tasked to make a website that would be used to showcase off my skills to potential employers. 
+-in this challenge, i was tasked to create a password generator using the prompt, confirm and alert. Then to use math to generate the password based on the restrictions they asked for.
 
-![](assets\images\thiswebsite.PNG)
+![](.\photos\passwordgen.PNG)
 
--[Link to Website] https://kaisergandros.github.io/Portfolio-splashpage/
--[Link to Repo] https://github.com/KaiserGandros/Portfolio-splashpage
+-[Link to Website] https://kaisergandros.github.io/password-gen/
+-[Link to Repo] https://github.com/KaiserGandros/password-gen
 
-# Horiseon Refactory code 
+# Password Generator 
 
--This is an update to the horiseon website to make it more accessible and easier to read as well as adjusting spacing and text in the website.
+-This is a Password generator that prompts the user to select which restrictions they want. Restrictions including Uppercase, lowercase, numbers nad special characters. 
 
--This refactor includes HTML and CSS changes
+-This code includes css, html and javascript.
 
 ## Installation
 
@@ -51,8 +51,8 @@ SOFTWARE.
 
 ## Features
 
-Made header and about me section
-Made showcases with responsive links to github pages
-made side nav bar
-made things responsive 
+Made arrays for the list of characters
+Made generator using math random to mix and select through the array
+added if statements for the prompts and confirms 
+added returns and messages if an error occours.
 
